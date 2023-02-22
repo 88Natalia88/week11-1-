@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="number">Введите цифры</label>
+<input type="number" name="number" id="number" value="Значение">
+<label for="number2">Сюда вводить нельзя</label>
+<input type="number" name="number2" id="number2" value="Результат" disabled>
+<input type="button" name="button1" id="button1" value="Посчитать" onclick="func()">
+    </form>
+
+
+
+    <form>
+<h2>Калькулятор</h2>
+<label for="firstNumber">Введите первое значение</label>
+<input type="number" name="firstNumber" id="firstNumber" value="Первое число">
+<label for="operation">Выберите действие</label>
+<select id="operation">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+<label for="secondNumber">Введите второе значение</label>
+<input type="number" name="secondNumber" id="secondNumber" value="Второе число">
+<input type="button" name="button" id="button" value="Посчитать" onclick="calc()">
+<p id="result"></p>
+</form>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
