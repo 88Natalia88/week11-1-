@@ -14,15 +14,14 @@ number2 = result;
 
 
 //Калькулятор
-let a = document.getElementById('firstNumber');
-a = Number(a);
 
-let b = document.getElementById('secondNumber');
-b = Number(b);
-
-let operation = document.getElementById('operation').value;
 function calc(){
-    switch(operation){
+    let a = document.getElementById('num1').value;
+    a = Number(a);
+    let b = document.getElementById('num2').value;
+    b = Number(b);
+    let operator = document.getElementById('operation').value;
+    switch(operator){
 case '+': 
 result = a + b;
 break;

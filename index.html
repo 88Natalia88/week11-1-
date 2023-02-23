@@ -20,16 +20,19 @@
     <form>
 <h2>Калькулятор</h2>
 <label for="firstNumber">Введите первое значение</label>
-<input type="number" name="firstNumber" id="firstNumber" value="Первое число">
+<input type="number" name="firstNumber" id="num1" value="Первое число">
+<br>
 <label for="operation">Выберите действие</label>
-<select id="operation">
+<select name="operation" id="operation">
     <option value="+">+</option>
     <option value="-">-</option>
     <option value="*">*</option>
     <option value="/">/</option>
 </select>
+<br>
 <label for="secondNumber">Введите второе значение</label>
-<input type="number" name="secondNumber" id="secondNumber" value="Второе число">
+<input type="number" name="secondNumber" id="num2" value="Второе число">
+<br>
 <input type="button" name="button" id="button" value="Посчитать" onclick="calc()">
 <p id="result"></p>
 </form>
