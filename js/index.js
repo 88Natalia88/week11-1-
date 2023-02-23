@@ -2,12 +2,8 @@
 function func(){
 let number = document.getElementById('number').value;
 let number2 = document.getElementById('number2').value;
-number2.remove(desabled);
-    number2 = Math.pow(number, 2).innerHTML;
-
+number2 = Math.pow(number, 2).value;
 }
-
-console.log(number2);
 
 
 //Калькулятор
@@ -32,5 +28,5 @@ case "/":
 result = a / b;
 break;
     }
-    document.getElementById("result").innerHTML = result;
+    document.getElementById("result").value = result;
 }
