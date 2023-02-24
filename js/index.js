@@ -1,8 +1,8 @@
 
 function func(){
 let number = document.getElementById('number').value;
-let number2 = document.getElementById('number2').value;
-number2 = Math.pow(number, 2).value;
+let number2 = Math.pow(number, 2);
+document.querySelector('#number2').value = number2;
 }
 
 
