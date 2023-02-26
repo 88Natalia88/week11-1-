@@ -1,6 +1,5 @@
-
-function func(){
 let number = document.getElementById('number').value;
+function count(){
 let number2 = Math.pow(number, 2);
 document.querySelector('#number2').value = number2;
 }
